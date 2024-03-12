@@ -32,21 +32,22 @@ export default function Home() {
 	<h1 className={title({ class: "   font-medium  text-zinc-700 " })}  >Roulette</h1>
 	</div>
 
-			<div className="flex justify-center max-w-6xl mx-auto mb-8 ">
+			<div className="flex items-center justify-center max-w-6xl p-2 mx-auto mb-8 ">
 				
-              <div className="flow-root ">
+              <div className="flow-root sm:px-4 md:px-4 sm:mt-10">
 	
-                <div className="p-2 -m-2 w-fit rounded-xl bg-zinc-900/5 lg:-m-4 lg:rounded-2xl ">
-			
+                <div className="-m-4 rounded-xl bg-zinc-900/5 lg:-m-4 lg:rounded-2xl">
+              
+               
 				<Terminal />
                   <Image
                      src="/br-theme-new.png"
                     alt="product preview"
-                    width={955}
+                    width={950}
                     height={808}
 					as={NextImage}
                     // quality={100}
-                    className="border rounded-lg shadow-2xl border-white/20 "
+                    className="flex mx-auto border rounded-lg shadow-2xl justify-evenly w-fit border-white/20 "
                   />
                 </div>
 				
