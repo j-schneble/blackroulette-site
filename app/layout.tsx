@@ -7,7 +7,7 @@ import { Providers } from "./providers";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 import { GithubIcon } from "@/components/icons";
-import { button as buttonStyles } from "@nextui-org/theme";
+import {  Button } from "@nextui-org/react";
 
 export const metadata: Metadata = {
 	title: {
@@ -39,19 +39,23 @@ export default function RootLayout({
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
 					<div className="relative flex flex-col h-screen">
 			
-						<main className="container flex-grow px-6 pt-8 mx-auto max-w-7xl">
+						<main className="container flex-grow px-6 pt-8 mx-auto max-w-6xl">
 							{children}
 						</main>
-						<footer className="flex items-center justify-center w-full ">
-						<Link
-					isExternal
-					className={buttonStyles({ variant: "bordered", radius: "md" })}
-					href={siteConfig.links.github}
-				>
-					<GithubIcon size={20} />
-				
-				</Link>
-							
+						<footer className="flex items-center justify-center ">
+							<Button 
+								isExternal
+      							href="https://marketplace.visualstudio.com/items?itemName=j-schneble.blackroulette-theme"
+      							as={Link}
+      							className='bg-black'     
+      							variant="solid"
+							>
+								<div className='flex justify-center max-w-full text-center '>
+ 									<span className='flex items-center rounded-xl text-black bg-white'>
+										<GithubIcon size={25} />
+									</span>
+								</div>
+							</Button> 
 						</footer>
 					</div>
 				</Providers>
