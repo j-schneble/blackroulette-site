@@ -42,6 +42,21 @@
         font-size: 3em;
     }
  }
+ .grid-new {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(25%, auto));
+    width: var(--max-width);
+    max-width: 100%;
+  }
+  @media (max-width: 671px) {
+    .grid-new {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        width: max-content;      
+    }
+  }
+
+
 
 
 

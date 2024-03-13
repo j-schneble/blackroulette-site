@@ -4,10 +4,7 @@ import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
-import { Link } from "@nextui-org/link";
 import clsx from "clsx";
-import { GithubIcon } from "@/components/icons";
-import {  Button } from "@nextui-org/react";
 
 export const metadata: Metadata = {
 	title: {
@@ -16,9 +13,9 @@ export const metadata: Metadata = {
 	},
 	description: siteConfig.description,
 	icons: {
-		icon: "/favicon.ico",
-		shortcut: "/favicon-16x16.png",
-		apple: "/apple-touch-icon.png",
+		icon: "/br2.png",
+		shortcut: "/br2.png",
+		apple: "/br2.png",
 	},
 };
 
@@ -32,14 +29,14 @@ export default function RootLayout({
 			<head />
 			<body
 				className={clsx(
-					"min-h-screen mobile-flow bg-background font-sans antialiased",
+					"min-h-screen overflow-x-hidden mobile-flow bg-background font-sans antialiased",
 					fontSans.variable
 				)}
 			>
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
 					<div className="relative flex flex-col h-screen">
 			
-						<main className="container flex-grow px-6 pt-8 mx-auto max-w-6xl">
+						<main className="container flex-grow max-w-4xl px-2 pt-8 mx-auto">
 							{children}
 						</main>
 						
