@@ -37,6 +37,11 @@
         overflow: hidden;
     }
  }
+ @media screen and (max-width: 600px) {
+    .title-mob {
+        font-size: 3em;
+    }
+ }
 
 
 

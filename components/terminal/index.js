@@ -64,10 +64,10 @@ const Terminal = () => {
         </div>
     
         <div className={styles.body}>
-          {renderLine('A minimal, dark theme for VS code.  ')}
+          {renderLine('A minimal, dark extension for VS code.  ')}
 
           {lineCount >= 1 &&
-            renderLine('v0.0.2 coming soon for iTerm2 and Sublime Text.')}
+            renderLine('v0.0.2 coming soon for iTerm2 + Sublime.')}
 
             <>            
             </>

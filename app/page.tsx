@@ -42,9 +42,9 @@ export default function Home() {
       </div> 
       </div>
 
-      <div className='flex justify-center py-2 mx-auto mt-12 mb-2 text-center '>
-<h1 className={title({ class: " font-thin  text-zinc-200" })}  >Black</h1>
-	<h1 className={title({ class: "   font-medium  text-zinc-700 " })}  >Roulette</h1>
+      <div className='flex justify-center py-2 mx-auto mt-4 text-center '>
+<h1 className={title({ class: " title-mob font-thin  text-zinc-200" })}  >Black</h1>
+	<h1 className={title({ class: " title-mob  font-medium  text-zinc-700 " })}  >Roulette</h1>
 	</div>
 
   <div>
