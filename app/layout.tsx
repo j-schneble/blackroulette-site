@@ -32,7 +32,7 @@ export default function RootLayout({
 			<head />
 			<body
 				className={clsx(
-					"min-h-screen bg-background font-sans antialiased",
+					"min-h-screen mobile-flow bg-background font-sans antialiased",
 					fontSans.variable
 				)}
 			>
@@ -42,21 +42,7 @@ export default function RootLayout({
 						<main className="container flex-grow px-6 pt-8 mx-auto max-w-6xl">
 							{children}
 						</main>
-						<footer className="flex items-center justify-center ">
-							<Button 
-								isExternal
-      							href="https://marketplace.visualstudio.com/items?itemName=j-schneble.blackroulette-theme"
-      							as={Link}
-      							className='bg-black'     
-      							variant="solid"
-							>
-								<div className='flex justify-center max-w-full text-center '>
- 									<span className='flex items-center rounded-xl text-black bg-white'>
-										<GithubIcon size={25} />
-									</span>
-								</div>
-							</Button> 
-						</footer>
+						
 					</div>
 				</Providers>
 			</body>

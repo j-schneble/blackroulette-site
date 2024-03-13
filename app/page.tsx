@@ -6,10 +6,11 @@ import Image from 'next/image'
 import { BiLogoVisualStudio } from "react-icons/bi";
 import {CircularProgress} from "@nextui-org/react";
 import { Button} from "@nextui-org/react";
-
+import { title} from "@/components/primitives";
+import { GithubIcon } from "@/components/icons";
 export default function Home() {
 	return (
-		<section className="flex flex-col gap-4 px-2 py-4">
+		<section className="flex flex-col gap-2 mt-8 px-2 ">
  
 		  <div className='flex items-center  justify-center  pb-2 mobility'>
       <div className="flex items-center justify-center text-center before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-md rounded-lg shadow-small ml-1 z-10">
@@ -40,9 +41,17 @@ export default function Home() {
         </Button>
       </div> 
       </div>
-   
-      <div>
+
+      <div className='flex justify-center py-2 mx-auto mt-12 mb-2 text-center '>
+<h1 className={title({ class: " font-thin  text-zinc-200" })}  >Black</h1>
+	<h1 className={title({ class: "   font-medium  text-zinc-700 " })}  >Roulette</h1>
+	</div>
+
+  <div>
+
+<div >
         <Terminal />
+        </div>
       <div>
         <Image
            src={'/br-theme-new.png'}
@@ -59,7 +68,22 @@ export default function Home() {
                     // className="flex items-center justify-center p-4 mx-4 border rounded-lg shadow-2xl w-fit border-white/20 "
           />
       </div>				
-    </div>         
+    </div>   
+    {/* <footer className="flex mt-8 items-center justify-center ">
+							<Button 
+								isExternal
+      							href="https://marketplace.visualstudio.com/items?itemName=j-schneble.blackroulette-theme"
+      							as={Link}
+      							className='bg-black'     
+      							variant="solid"
+							>
+								<div className='flex justify-center max-w-full text-center '>
+ 									<span className='flex items-center rounded-xl text-black bg-zinc-600'>
+										<GithubIcon size={20} />
+									</span>
+								</div>
+							</Button> 
+						</footer>       */}
 </section>
 		
 	);

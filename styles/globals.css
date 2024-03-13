@@ -32,6 +32,11 @@
         margin-top: 4rem;
     }
  }
+ @media screen and (max-width: 600px) {
+    .mobile-flow {
+        overflow: hidden;
+    }
+ }
 
 
 
