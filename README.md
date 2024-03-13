@@ -5,8 +5,10 @@
 <p align="center">
   A minimal, dark theme for VS Code
 </p>
-<p align="center">
-</p>
+
+  ![Screenshot 2024-03-13 at 4 27 46 PM](https://github.com/j-schneble/blackroulette-site/assets/60337134/df06a802-f05b-4cc6-a980-b561746bc75a)
+
+
 
 ## Installation via VS Code
 
