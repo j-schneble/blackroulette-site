@@ -9,6 +9,9 @@
   A minimal, dark theme for VS Code
 </p>
 
+<img width="1440" alt="Screenshot 2024-03-15 at 1 09 38 PM" src="https://github.com/j-schneble/blackroulette-site/assets/60337134/4b82ccc0-9e96-46e8-b57e-44f46a9b585d">
+
+
 <img width="1311" alt="br-theme-new" src="https://github.com/j-schneble/blackroulette-site/assets/60337134/462750b8-186b-41f3-aa88-422970584d5c">
 
 
