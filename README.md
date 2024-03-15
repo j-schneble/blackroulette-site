@@ -1,13 +1,15 @@
+<p align="center">
+  <img width="100" src="https://github.com/j-schneble/blackroulette-site/assets/60337134/6285a53b-6539-47fd-a040-258aebccddcc" />
+</p>
 
 <h1 align="center">
-  BlackRoulette Theme for VS Code
+ BlackRoulette 
 </h1>
 <p align="center">
   A minimal, dark theme for VS Code
 </p>
 
-  ![Screenshot 2024-03-13 at 4 27 46 PM](https://github.com/j-schneble/blackroulette-site/assets/60337134/df06a802-f05b-4cc6-a980-b561746bc75a)
-
+<img width="1311" alt="br-theme-new" src="https://github.com/j-schneble/blackroulette-site/assets/60337134/462750b8-186b-41f3-aa88-422970584d5c">
 
 
 ## Installation via VS Code
