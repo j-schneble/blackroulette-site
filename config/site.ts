@@ -9,8 +9,13 @@ export const siteConfig = {
 			href: "/",
 		},
     
+	   
 	],
+	
 	links: {
 		github: "https://github.com/j-schneble/blackroulette",
+		visualstudio: "https://marketplace.visualstudio.com/items?itemName=j-schneble.blackroulette-theme",
 	},
 };
+
+
